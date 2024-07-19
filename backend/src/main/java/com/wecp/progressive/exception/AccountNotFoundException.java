@@ -1,7 +1,7 @@
 package com.wecp.progressive.exception;
 
-public class AccountNotFoundException extends Exception {
-    public AccountNotFoundException(String msg){
-        super(msg);
+public class AccountNotFoundException extends RuntimeException {
+    public AccountNotFoundException(String message) {
+        super(message);
     }
 }
