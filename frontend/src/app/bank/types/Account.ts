@@ -11,8 +11,8 @@ export class AccountTS {
     }
  
     displayInfo() {
-        console.log(`Account ID: ${this.accountId}`);
-        console.log(`Customer ID: ${this.customerId}`);
+        console.log(`Account ID: ${this.accountId}\n`);
+        console.log(`Customer ID: ${this.customerId}\n`);
         console.log(`Balance: ${this.balance.toFixed(2)}`);
     }
 }
